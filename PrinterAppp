@@ -1,0 +1,14 @@
+number1= 9
+number2= 20
+print("Printer app")
+my_String=("Aada MacGregor")
+print("This app is made by:" +my_String)
+#print(number1)
+print("Value of number is number1 is " + str(number1))
+print("Value of number is number2 is " + str(number2))
+multiplication = number1*number2
+print(f"{number1} * {number2} = {multiplication}")
+addition = number1+number2
+print(f"{number1} + {number2} = {addition}")
+substraction = number1-number2
+print(f"{number1} - {number2} = {substraction}")
