@@ -1,0 +1,74 @@
+number1 =2
+number2 =4
+number3 =10
+name1 = "Emma"
+name2 = "William"
+name3 ="James"
+
+if number1 == number2:
+    print("Numbers are equal")
+else:
+    print("Numbers aren't equal")
+
+    if number1 > number2:
+        print("Number1 is greater than number2")
+    else:
+        print("Number1 isn't greater than numver2")
+
+if number1 >= number2:
+    print("Number1 is greater or equal to number2")
+else:
+    print("Number1 isnt equal or greater than number2")
+
+if number1 != number2:
+    print("Number1 isn't equal to number2")
+else:
+    print("Numbers are equal")
+
+if number1 == number2 ==number3:
+    print("All numbers are equal")
+else:
+    print("All numbers arent equal")
+
+if number1 == number2 or number2 == number3:
+    print("Either number1 equals number2, or number2 equals number3")
+else:
+    print("Neither number1 equals number2, nor number2 equals number3")
+
+if number1 > number2 and number1 > number3:
+    print("number1 is greater than both number2 and number3.")
+
+elif number1 > number2:
+    print("number1 is greater than number2.")
+
+elif number2 > number3:
+    print("number2 is greater than number3.")
+else:
+    print("None of the conditions were met.")
+
+if number1 == number2:
+   print("Number1 and number2 are equal")
+
+elif number1 == number3:
+    print("Number1 and number3 are equal")
+else:
+    print("Numbers arent equal")
+
+if name1 == name2:
+    print("Names are equal")
+else:
+    print("Names arent equal")
+
+if name1 != name2:
+    print("Names arent equal")
+else:
+    ("Names are equal")
+
+if name1 == name2:
+   print("Names are equal")
+
+elif name1 == name3:
+    print("Names arent equal")
+else:
+    print("None of the names are equal")  
+
