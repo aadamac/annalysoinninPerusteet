@@ -1,0 +1,16 @@
+guess = input("Please guess my name: ")
+correct_name = "Aada"
+guess_count = 0
+
+while guess != correct_name:
+    guess_count += 1  
+    quit = input("Do you want to quit (y/n)? ")
+    if quit == "y":
+        break
+    else:
+        print("Guess again")
+    
+    guess = input("Guess my name: ")  
+    print(f"Attempt {guess_count}")  
+
+print(f"Total attempts: {guess_count}")
