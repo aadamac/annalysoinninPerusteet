@@ -1,0 +1,31 @@
+#Exercise1
+funiturelist = ["table", "chair", "sofa" , "bed"]
+print(funiturelist)
+print(funiturelist[0], funiturelist[1])
+if "sofa" in funiturelist:
+    print("sofa")
+
+#Exercise2
+thrownDiceNumbers = []
+import random
+for _ in range(5):
+    thrownDiceNumbers.append(random.randint(1, 6))
+print(thrownDiceNumbers)
+total = sum(thrownDiceNumbers)
+print("The sum is " ,total)
+
+#Exercise3
+
+import random
+
+numberList = []
+
+# Keep generating numbers until we have 5 unique ones
+while len(numberList) < 5:
+    new_number = random.randint(1, 20)  # Generate a random number between 1 and 20
+    if new_number not in numberList:    # Check if it's already in the list
+        numberList.append(new_number)   # Add it if it's unique
+
+# Print the final list
+print("Random unique numbers:", numberList)
+
